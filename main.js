@@ -25,7 +25,7 @@ let Pizzas = [Muzza, Rucula, Panceta, Champiñon, Roquefort, Cuatroquesos];
 console.log("a. Pizzas que tengan un id impar.");
 
 const idImpar = Pizzas.filter((Pizza) => {
-     return Pizza.id % 3 ===0;
+     return Pizza.id % 2 ===1;
 });
 
 idImpar.forEach ((Pizza) =>{
